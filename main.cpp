@@ -165,7 +165,7 @@ void appendFontBitmap(QString characters, QFont font, FontDesc desc)
     }
 
     std::cout << indent(2) << "}" << std::endl;
-    std::cout << indent(1) << "}" << std::endl;
+    std::cout << indent(1) << "}," << std::endl;
 }
 
 /**
